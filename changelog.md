@@ -15,3 +15,11 @@
 
 - Table to display todo list items on the welcome view
 - Changed core controller to faciliate better view definitions
+
+
+## Version 1.0.0
+
+### Added
+
+- Work/Ordered TODO List view
+- User can now see A list of tasks ordered by priority and Category
