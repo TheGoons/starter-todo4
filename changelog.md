@@ -9,7 +9,7 @@
 - Permissions for data folder
 - Preloading the model 'tasks'
 
-## Version 1.0.0
+## Version 1.0.1
 
 ### Added
 
@@ -17,9 +17,16 @@
 - Changed core controller to faciliate better view definitions
 
 
-## Version 1.0.0
+## Version 1.0.2
 
 ### Added
 
 - Work/Ordered TODO List view
 - User can now see A list of tasks ordered by priority and Category
+
+## Version 1.0.3
+
+### Added
+
+- The Mtce controller and view
+- separated the display_tasks functionality into it's own single item view
