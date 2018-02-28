@@ -65,3 +65,10 @@
 ### Added
 
 - Added CRUD operations for tasks
+
+
+## Version 1.0.9
+
+### Added
+
+- Updated the forms for the task update page
