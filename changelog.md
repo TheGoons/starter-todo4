@@ -45,3 +45,9 @@
 ### Added
 
 - Adding User Roles
+
+## Version 1.0.6
+
+### Added
+
+- Adding form handling for tasks

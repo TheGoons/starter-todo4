@@ -142,4 +142,5 @@ $autoload['model'] = array('app', 'tasks');
 /*
 / Added in Job 5
 */
-$autoload['libraries'] = array('parser', 'parsedown');
+//$autoload['libraries'] = array('parser', 'parsedown');
+$autoload['libraries'] = array('parser', 'parsedown','session');
