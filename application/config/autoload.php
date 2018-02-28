@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('parser');
+$autoload['libraries'] = array('parser', 'parsedown','session');
 
 /*
 | -------------------------------------------------------------------
@@ -142,4 +142,5 @@ $autoload['model'] = array('app', 'tasks');
 /*
 / Added in Job 5
 */
-$autoload['libraries'] = array('parser', 'parsedown');
+//$autoload['libraries'] = array('parser', 'parsedown');
+$autoload['libraries'] = array('parser', 'parsedown','session');
