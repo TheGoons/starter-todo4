@@ -51,3 +51,17 @@
 ### Added
 
 - Adding form handling for tasks
+
+
+## Version 1.0.7
+
+### Added
+
+- Added roles
+
+
+## Version 1.0.8
+
+### Added
+
+- Added CRUD operations for tasks
