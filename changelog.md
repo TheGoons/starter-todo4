@@ -38,3 +38,10 @@
 
 - Pagination for the TODO list
 - Item navigation for each page
+
+
+## Version 1.0.5
+
+### Added
+
+- Adding User Roles
