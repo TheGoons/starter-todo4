@@ -30,3 +30,11 @@
 
 - The Mtce controller and view
 - separated the display_tasks functionality into it's own single item view
+
+
+## Version 1.0.4
+
+### Added
+
+- Pagination for the TODO list
+- Item navigation for each page
