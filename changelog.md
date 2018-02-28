@@ -30,3 +30,45 @@
 
 - The Mtce controller and view
 - separated the display_tasks functionality into it's own single item view
+
+
+## Version 1.0.4
+
+### Added
+
+- Pagination for the TODO list
+- Item navigation for each page
+
+
+## Version 1.0.5
+
+### Added
+
+- Adding User Roles
+
+## Version 1.0.6
+
+### Added
+
+- Adding form handling for tasks
+
+
+## Version 1.0.7
+
+### Added
+
+- Added roles
+
+
+## Version 1.0.8
+
+### Added
+
+- Added CRUD operations for tasks
+
+
+## Version 1.0.9
+
+### Added
+
+- Updated the forms for the task update page
