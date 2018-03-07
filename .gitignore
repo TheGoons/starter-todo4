@@ -20,5 +20,3 @@ application/logs/*
 /nbproject/private/
 /nbproject/
 .idea/
-composer.lock
-composer.json
