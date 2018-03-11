@@ -1,35 +1,64 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mini_
- * Date: 2018-03-07
- * Time: 10:55 AM
- */
-
-class Task extends Entity
+// Class for testing.
+class Task extends CI_Model
 {
     public $id;
-    public $name;
+    public $task;
     public $priority;
-
-    // insist that an ID be present
-    public function setId($value) {
-        if (empty($value))
-            throw new Exception('An Id must have a value');
+    public $size;
+    public $group;
+    public $deadline;
+    public $status;
+    public $flag;
+    public function setId($value)
+    {
+        $this->id = $value;
     }
-
-    // insist that a Name be present and no longer than 30 characters
-    public function setName($value) {
-        if (empty($value))
-            throw new Exception('A Name cannot be empty');
-        if (strlen($value) > 30)
-            throw new Exception('A Name cannot be longer than 30 characters');
+    // Check if task text is too large.
+    public function setTask($value)
+    {
+        if (strlen($value) > 64)
+        {
+            return;
+        }
+        $this->task = $value;
     }
-
-    // insist that a Color be one of yellow, red or green
-    public function setPriority($value) {
-        $allowed = ['low', 'med', 'high'];
-        if (! in_array($value, $allowed))
-            throw new Exception('A priority must be low, med or high');
+    // Check if size is valid.
+    public function setSize($value)
+    {
+        if (!is_int($value) || $value >= 4)
+        {
+            return;
+        }
+        $this->size = $value;
+    }
+    // Checks if group is valid.
+    public function setGroup($value)
+    {
+        if (!is_int($value) || $value >= 5)
+        {
+            return;
+        }
+        $this->group = $value;
+    }
+    public function setPriority ($value)
+    {
+        if (!is_int($value) || $value >= 4)
+        {
+            return;
+        }
+        $this->priority = $value;
+    }
+    public function setDeadline($value)
+    {
+        $this->deadline = $value;
+    }
+    public function setStatus($value)
+    {
+        $this->status = $value;
+    }
+    public function setFlag($value)
+    {
+        $this->flag = $value;
     }
 }
