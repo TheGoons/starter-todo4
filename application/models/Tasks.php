@@ -42,6 +42,35 @@ class Tasks extends CSV_Model {
             return $converted;
         }
 
+        // Get completed tasks number.
+        function getCompletedTask()
+        {
+            $completed = 0;
+            foreach ($this->all() as $task)
+            {
+                if ($task->status == 2)
+                {
+                    $completed++;
+                }
+            }
+
+            return $completed;
+        }
+        // Get uncompleted tasks number.
+        function getUncompletedTask()
+        {
+            $uncompleted = 0;
+            foreach ($this->all() as $task)
+            {
+                if ($task->status != 2)
+                {
+                    $uncompleted++;
+                }
+            }
+
+            return $uncompleted;
+        }
+
         // provide form validation rules
         public function rules()
         {

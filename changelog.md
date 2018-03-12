@@ -67,8 +67,23 @@
 - Added CRUD operations for tasks
 
 
-## Version 1.0.9
+## Version 1.1.0
 
 ### Added
 
 - Updated the forms for the task update page
+
+
+## Version 1.1.1
+
+### Added
+
+- Adding `test` folder and `phpunit.xml`
+- Modifying Changelog to reflect current lab as big change
+
+## Version 1.1.2
+
+### Added
+
+- Added testcase class
+- Updated task class
