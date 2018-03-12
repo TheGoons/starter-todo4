@@ -87,3 +87,10 @@
 
 - Added testcase class
 - Updated task class
+
+## Version 1.1.3
+
+### Added
+
+- Added tasklisttest class
+- Updated Tasks model
