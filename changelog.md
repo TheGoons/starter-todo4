@@ -80,3 +80,10 @@
 
 - Adding `test` folder and `phpunit.xml`
 - Modifying Changelog to reflect current lab as big change
+
+## Version 1.1.2
+
+### Added
+
+- Added testcase class
+- Updated task class
