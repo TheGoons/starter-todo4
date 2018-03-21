@@ -101,3 +101,9 @@
 
 - Added Travis-CI
 
+## Version 1.1.5
+
+### Added
+
+- data.xml file
+
