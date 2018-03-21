@@ -94,3 +94,16 @@
 
 - Added tasklisttest class
 - Updated Tasks model
+
+## Version 1.1.4
+
+### Added
+
+- Added Travis-CI
+
+## Version 1.1.5
+
+### Added
+
+- data.xml file
+
